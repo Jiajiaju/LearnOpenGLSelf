@@ -1,16 +1,17 @@
 //
-//  main.cpp
+//  init.h
 //  LearnOpenGL
 //
 //  Created by weilove-jiajiaju on 2017/8/29.
 //  Copyright © 2017年 weilove-jiajiaju. All rights reserved.
 //
 
-#include "init.h"
+#ifndef init_h
+#define init_h
 
-#include "HelloWindow.hpp"
+#include <iostream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
-int main(int argc, const char * argv[]) {
-    helloWindow();
-    return 0;
-}
+
+#endif /* init_h */
